@@ -1,10 +1,24 @@
-# Personal-Project
-Undertaking a summer project - building on course material to create my own website and customizing options
+# Personal-Project 
+_Undertaking a summer project_ - building on course material to create my own website and customizing options
 
-[ ] Building a skeleton structure for the home page
+### WEEK 1
 
-[ ] Creating an outline of the content I want on my page 
+##### __Plan the layout of the website__
 
-[ ] Designing the structure and aesthetic of my page
+- [ ] Determine the PURPOSE of creating my site: *A personal portfolio, resume, share my personality, etc.*
+- [ ] Category of Content to Display: *Careers, Hobbies, Passions, Personality, etc.*
+- [ ] Structure of the Content / outline 
 
-[ ] ...
+
+### WEEK 2
+
+[ ... ]
+
+
+
+
+
+
+
+
+
