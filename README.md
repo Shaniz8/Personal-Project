@@ -6,6 +6,15 @@ _Undertaking a summer project_ - building on course material to create my own we
 ##### __Plan the layout of the website__
 
 - [ ] Determine the PURPOSE of creating my site: *A personal portfolio, resume, share my personality, etc.*
+  - Homepage: Introduction (who I am, my current situation for ex. student looking to build on experience, take on personal projects. hobbies, etc.
+
+
+|   Webpages   |               Description               |           Display Form              |
+| -----------  | --------------------------------------  | ----------------------------------- |
+|    About     | Introduction: Student/school, quick summary of current qualifications | PICs  |
+|     Work     | Experience: Internships, Extracurriculars, etc |  Videos of project and PICs  |
+| Projects (3x)| Personal, Course related, hobbies of my own | Pictures |
+  -  
 - [ ] Category of Content to Display: *Careers, Hobbies, Passions, Personality, etc.*
 - [ ] Structure of the Content / outline 
 
