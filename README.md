@@ -52,7 +52,8 @@ I've spent some time thinking about how I would like to organize the flow of my 
 |    Contact Me      |    Email me Section, with a recruiter check box for access to resume |
 
 #### Timeline
-- July 10th, 2023 - starting on the Base HTML code for creating the proposed outline!
+- July 10th, 2023 - Start on the Base Django Framework code for creating the proposed outline
+- EDIT: I've created the skeleton framework with Views.py and Urls.py for my first two pages - I've yet to figure out the Model and structure of my code
 
 
 
