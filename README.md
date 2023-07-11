@@ -55,6 +55,11 @@ I've spent some time thinking about how I would like to organize the flow of my 
 - July 10th, 2023 - Start on the Base Django Framework code for creating the proposed outline
 - EDIT: I've created the skeleton framework with Views.py and Urls.py for my first two pages - I've yet to figure out the Model and structure of my code
 
+#### TO-DO LIST:
+I know what type of layout I want to build for my site, I have to do the following in the background:
+- [] Get a Domain for my website
+- [] Find and choose a hosting platform that is cheap and accessible
+
 
 
 
