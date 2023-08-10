@@ -2,42 +2,52 @@
 <html lang="en">
 
 {# HEAD STARTS HERE #}
-<head>
-    {% load static %}
+    <head>
+        {% load static %}
 
-    {# SETTING META SETTINGS #}
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Shaniz Shehreen">
-    <meta name="description" content="Personal Website Project">
-    <link rel="stylesheet" href="main.css" type="text/css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        {# SETTING META SETTINGS #}
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Shaniz Shehreen">
+        <meta name="description" content="Personal Website Project">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen">
 
-    {# Favicon Here #}
-    <link rel="icon" type="image/ico" href="{% static 'icons/favicon.ico' %}">
-    <div class="container">
-        <title> Shaniz Shehreen </title>
-    </div>
+        {# Favicon Here #}
+        <link rel="icon" type="image/ico" href="{% static 'icons/favicon.ico' %}">
+        <div class="container">
+            <title class="align-text-top"> Shaniz Shehreen </title>
+        </div>
 
-</head>
+    </head>
 {# HEAD ENDS HERE #}
 
 {# BODY STARTS HERE #}
-<body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <header>
+            {# NAVBAR STARTS HERE #}
+            <img src="https://svg-files.pixelied.com/27186bd7-ce66-4331-93b7-ea1de37f6f0f/pixelied-sweet.svg" alt="logo" height="50" width="50"> Shaniz Shehreen </a>
+            <nav>
+                <ul>
+                    <li><a href="/About">About</a></li>
+                    <li><a href="/Experience">Experience</a></li>
+                    <li><a href="#">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
 
-{# NAVBAR STARTS HERE #}
-<nav class="navbar bg-success border-body">
-    <div class="container">
-    <a class="navbar-brand" href="#">
-    <img src="favicon.png" alt="Logo" class="d-inline-block align-text-top"> Placeholder Header info</a>
-    </div>
-</nav>
-    {% block content %}
+        <main>
 
-    <!-- Content Area -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            {% block content %}
 
-    {% endblock content %}
+            <!-- Content Area -->
 
-</body>
+            {% endblock content %}
+
+        </main>
+
+    </body>
+
 </html>
